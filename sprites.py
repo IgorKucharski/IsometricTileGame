@@ -52,7 +52,7 @@ class IsoTile(pg.sprite.Sprite):
 			or	mouse_pos[1] == self.global_coords[1][1]):
 				mouse_coeff = coeff
 
-		# Twierdzenie Talesa w celu sprawdzenia kolizji wskaźnika myszy z izometryczną płytką.
+		# Twierdzenie Talesa w celu sprawdzenia kolizji wskaznika myszy z izometryczna plytka.
 		if coeff <= mouse_coeff: 
 			pg.draw.polygon(self.image, WHITE, self.coords)
 			self.focus = True
